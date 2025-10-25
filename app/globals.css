@@ -1,0 +1,23 @@
+* { box-sizing: border-box; }
+html, body { margin: 0; padding: 0; height: 100%; }
+body { font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji"; background: #0f1216; color: #e6e8eb; }
+
+.container { max-width: 800px; margin: 0 auto; padding: 40px 16px; }
+.header { display: flex; align-items: center; gap: 12px; margin-bottom: 24px; }
+.title { font-size: 28px; font-weight: 700; }
+.pageTitle { font-size: 36px; font-weight: 800; margin: 16px 0 24px; }
+
+.block { padding: 6px 8px; border-radius: 8px; }
+.block:focus-within { outline: 1px solid #3b82f6; background: rgba(59,130,246,0.08); }
+.blockInput { width: 100%; background: transparent; color: inherit; border: none; outline: none; font-size: 16px; line-height: 1.6; }
+.blockInput.heading { font-size: 28px; font-weight: 800; }
+.blockInput.todo { display: flex; align-items: center; gap: 8px; }
+
+.toolbar { display: flex; gap: 8px; margin-bottom: 16px; }
+.button { background: #1f2937; border: 1px solid #374151; color: #e5e7eb; padding: 8px 12px; border-radius: 8px; cursor: pointer; }
+.button:hover { background: #111827; }
+
+.divider { height: 1px; background: #30363d; margin: 12px 0; }
+.quote { border-left: 3px solid #64748b; padding-left: 12px; color: #94a3b8; font-style: italic; }
+.todoRow { display: flex; align-items: center; gap: 8px; }
+.checkbox { width: 18px; height: 18px; accent-color: #22c55e; }
